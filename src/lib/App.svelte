@@ -2,9 +2,10 @@
   import AppHeader from "./AppHeader.svelte";
   import AppFooter from "./AppFooter.svelte";
   import AppNav from "./AppNav.svelte";
+  export let title = 'Default App Title';
 </script>
 
-<AppHeader>
+<AppHeader title="{title}">
   <slot name="header"></slot>
 </AppHeader>
 
