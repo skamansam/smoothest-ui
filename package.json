@@ -1,6 +1,22 @@
 {
   "name": "smoothest-ui",
   "version": "0.0.1",
+  "description": "UI for building Svelte apps with Tailwind.",
+  "license": "MIT",
+  "keywords": [
+    "svelte",
+    "sveltejs",
+    "components",
+    "tailwind"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skamansam/smoothest-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skamansam/smoothest-ui/issues"
+  },
+  "homepage": "https://github.com/skamansam/smoothest-ui#readme",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
