@@ -13,12 +13,16 @@ specifiers:
   postcss-load-config: ^3.1.1
   prettier: ^2.4.1
   prettier-plugin-svelte: ^2.4.0
+  remixicon: ^2.5.0
   svelte: ^3.44.0
   svelte-check: ^2.2.6
   svelte-preprocess: ^4.10.1
   tailwindcss: ^3.0.12
   tslib: ^2.3.1
   typescript: ^4.4.3
+
+dependencies:
+  remixicon: 2.5.0
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.14
@@ -1523,6 +1527,10 @@ packages:
     resolution: {integrity: sha512-pq2bWo9mVD43nbts2wGv17XLiNLya+GklZ8kaDLV2Z08gDCsGpnKn9BFMepvWuHCbyVvY7J5o5+BVvoQbmlJLg==}
     engines: {node: '>=8'}
     dev: true
+
+  /remixicon/2.5.0:
+    resolution: {integrity: sha512-q54ra2QutYDZpuSnFjmeagmEiN9IMo56/zz5dDNitzKD23oFRw77cWo4TsrAdmdkPiEn8mxlrTqxnkujDbEGww==}
+    dev: false
 
   /require-from-string/2.0.2:
     resolution: {integrity: sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==}
