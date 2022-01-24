@@ -1,8 +1,10 @@
 <script>
 export let title='Default App';
+let clazz;
+export { clazz as class };
 </script>
 
-<header class="absolute inset-x-0 top-0 h-16 bg-violet-500 flex">
+<header class="{clazz}">
   <div class="font-bold font-sans text-3xl self-center justify-self-center">
     <slot name="title">
       {title}
